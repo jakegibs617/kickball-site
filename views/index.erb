@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="home.css">
+  </head>
+
+  <body>
+    <h1>Team Names</h1>
+    <ul>
+      <% teams.each do |team| %>
+        <li><a href="teams/<%= team.name %>"><%= team.name %></a></li>
+      <% end %>
+    </ul>
+  </body>
+</html>

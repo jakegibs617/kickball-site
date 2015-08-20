@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="/home.css">
+  </head>
+
+  <body>
+    <h1>
+      Every <%= position %> in the league!
+    </h1>
+
+    <ul>
+      <% players_by_position.each do |player| %>
+        <li><%= player.name %> plays for the team  <%= player.team %></li>
+      <% end %>
+    </ul>
+    <a id="button" href="/">Back to team list</a>
+  </body>
+</html>

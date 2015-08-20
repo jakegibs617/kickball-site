@@ -1,0 +1,44 @@
+body {
+  /* Use a "Matrix"-style color scheme. */
+  background-color: rgb(255, 227, 204);
+  color: rgb(140, 149, 171);
+
+  font-family: Helvetica;
+  font-size: 1em;
+  text-align: center;
+}
+
+
+body h1 {
+  color:rgb(140, 50, 50);
+  margin-left: 50px;
+
+}
+
+ul {
+  width: auto;
+
+}
+
+#button {
+  text-decoration: none;
+  margin-left: 25px;
+
+}
+
+li {
+  /* Add a bit more spacing between list items. */
+  padding: 5px;
+  list-style-type: none;
+}
+li a{
+  /* Add a bit more spacing between list items. */
+
+  color: rgb(123, 132, 153);
+  text-decoration: none;
+
+}
+li a:hover{
+  color: rgb(0, 0, 0);
+
+}
